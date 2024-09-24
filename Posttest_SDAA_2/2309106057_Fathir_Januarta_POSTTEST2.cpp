@@ -27,7 +27,7 @@ const string fileName = "data_penyewa.txt";
 void tambahPenyewa(Penyewa *list) {
     if (jumlahPenyewa < MAX_PENYEWA) {
         Penyewa penyewaBaru;
-        penyewaBaru.id = jumlahPenyewa + 1; 2
+        penyewaBaru.id = jumlahPenyewa + 1; 2;
 
         cout << "Masukkan nama penyewa: ";
         cin.ignore();
